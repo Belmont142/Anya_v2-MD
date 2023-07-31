@@ -22,27 +22,26 @@ global.lApiKey = {// if this API key get expired then please go to https://api.l
 }
 
 
-global.botname = "Queen Anya" 
-global.author = "Enter Author Name Here"  
-global.packname = "𝙌𝙐𝙀𝙀𝙉✯𝘼𝙉𝙔𝘼✯𝘽𝙊𝙏"  
+global.botname = "Queen Ichinose" 
+global.author = "❤Mizuhara Chizuru❤"  
+global.packname = "𝙌𝙐𝙀𝙀𝙉✯ICHINOSE✯𝘽𝙊𝙏"  
 global.myweb = "Enter Your Any Website Profile Link Here"
-global.footer = "©\t" + "Enter Your Watermark Here"
-global.prefa = ['-'] // single prefix
-global.themeemoji = "🎐"
-global.autoBio = "$mode : $time ⌚ || $date 🗓️ || $botname" // Leave it as it is if you didn't understood!
+global.footer = "©\t" + "❤Mizuhara Chizuru❤"
+global.prefa = ['☕'] // single prefix
+global.themeemoji = "☕"
 global.socialText = `*⪧⪢ Please join this group for by bot's announcement.*`
 global.socialLink = `*⪧⪢ https://chat.whatsapp.com/HshHS6kHF9NHnA9lfMwwSM 💝*`
 
 
-global.ownername = "Enter Owner Name Here"    
-global.ownernumber = ["918811074852"]
+global.ownername = "❤Mizuhara Chizuru❤"    
+global.ownernumber = ["+225 08 54 47 16"]
 global.ytname = "YT: Enter Your Channel Name Here"
 global.continent = "Asia" // your continent name 
-global.region = "Enter Your Country Name Here"
-global.state = "Enter Your State Name Here" // your state name
-global.timezone = "Asia/Kolkata" // search on google if you don't know the timezone of your country //
+global.region = "JAPON💮"
+global.state = "TOKYO🈳" // your state name
+global.timezone = "Africa/Lome" // search on google if you don't know the timezone of your country //
 global.instagramId = "Enter Your Insta ID Here"
-global.email = "Enter Your Email ID Here"
+global.email = "curzonoderneisse@gmail.com"
 
 
 // Greeting messages
@@ -53,13 +52,9 @@ global.greet4 = "Good night 😴" // after 8:30 PM
 
 
 //--------------- Tip ----------------\\
-global.Tips = [
-`Type *$prefix info* for more information...`,
-`Type *$prefix settings* to commit changes in the bot.`,
-`If you got a bug or error, then please report to developer asap by *$prefix report* command.`,
-"if you want only admins could use this bot, type *$prefix only_admin*.",
-"You can change your prefix type to single prefix or multi prefix, just type *$prefix singlePrefix* or *$prefix multiPrefix* or *$prefix allPrefix*"
-]
+global.tip1 = `Type *${prefa}info* for more information....`
+global.tip2 = `Type *${prefa}settings* to commit changes in the bot.`
+global.tip3 = `If you got a bug or error, then please report to developer asap by *${prefa}report* command.`
 
 //--------------- Menu images ----------------\\
 global.nullImage = fs.readFileSync('./AnyaPikaMedia/Anyatestpic.jpg')
